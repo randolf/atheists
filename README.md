@@ -1,5 +1,5 @@
 # Atheist quotes API
-Because I'm an Atheist. Just a ridiculously simple Node server.
+Because I'm an atheist, and this is a very simple Node server.
 
 ## Production host
 [https://atheists.herokuapp.com/v1/quotes](https://atheists.herokuapp.com/v1/quotes)
@@ -9,7 +9,7 @@ The `Access-Control-Allow-Origin` header is set to `*` so that you can make requ
 ## APIs
 
 ### `GET /v1/quotes`
-Returns an array with one quote:
+Returns an array containing one quotation:
 ```
 [
 	"The way to see by faith is to shut the eye of reason - Benjamin Franklin"
@@ -17,14 +17,15 @@ Returns an array with one quote:
 ```
 
 ### `GET /v1/quotes/<count>`
-Returns an array with `<count>` quotes e.g. `GET /quotes/2`
+Returns an array containing `<count>` quotations (e.g., `GET /quotes/2`)
 ```
 [
-	"The way to see by faith is to shut the eye of reason - Benjamin Franklin",
-	"I'd take the awe of understanding over the awe of ignorance any day. ― Douglas Adams"
+	"The way to see by faith is to shut the eye of reason. -- Benjamin Franklin",
+	"I'd take the awe of understanding over the awe of ignorance any day. -- Douglas Adams"
 ]
 ```
 
-### Todos
+### To-do items
 
- - Make it better...keep adding and spread the knowledge
+  - add more quotations
+  - spread the knowledge
